@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  font-family: "Hind Siliguri", sans-serif;
+  /* padding: 0 35px; */
+  color: #f3f3f3;
+}
+
+#header {
+  min-height: 100vh;
+  padding: 0 35px;
+}
+
+#header .logo-and-menu-bar {
+  display: flex;
+  /* background-color: aqua; */
+  margin-top: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+#header .logo-and-menu-bar .menu-bar {
+  /* background-color: blanchedalmond; */
+}
+
+#header .logo-and-menu-bar .logo h2:hover {
+  /* text-transform: uppercase; */
+  color: #fedb59;
+}
+
+#header .logo-and-menu-bar .logo a {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+#header .logo-and-menu-bar .logo h2 span {
+  color: #fedb59;
+  /* font-family: "Dancing Script", cursive; */
+}
+
+#header .logo-and-menu-bar .menu-bar ul {
+  list-style-type: none;
+}
+
+#header .logo-and-menu-bar .menu-bar ul li {
+  display: inline;
+  margin: 0 12px;
+}
+
+#header .logo-and-menu-bar .menu-bar ul li a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-weight: 600;
+  padding-right: 6px;
+  transition: all 0.3s ease;
+}
+
+#header .logo-and-menu-bar .menu-bar ul li:hover a {
+  border-bottom: 3px solid #fedb59;
+  color: #fedb59;
+}
+
+/* header text and img */
+#header .text-and-image {
+  /* background-color: yellowgreen; */
+  display: flex;
+  min-height: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#header .text-and-image .text-btn {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  /* background-color: bisque; */
+}
+
+#header .text-and-image .text-btn h1,
+#about .img-and-text .text h1 {
+  font-size: 35px;
+  margin-bottom: 12px;
+}
+
+#header .text-and-image .text-btn span,
+#about .img-and-text .text h1 span {
+  color: #fedb59;
+}
+
+#header .text-and-image .text-btn #hire-btn,
+#resume-btn {
+  display: inline;
+  background-color: transparent;
+  border: 2px solid #fedb59;
+  color: #f3f3f3;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 12px;
+  transition: all 0.5s ease;
+  margin-top: 16px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+#header .text-and-image .text-btn #resume-btn {
+  background-color: #fedb59;
+  color: #222;
+}
+
+#header .text-and-image .text-btn #hire-btn:hover {
+  background-color: #fedb59;
+  color: #222;
+}
+
+#header .text-and-image .text-btn #resume-btn:hover {
+  background-color: transparent;
+  color: #f3f3f3;
+}
+
+#header .text-and-image .img {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .text-and-image .img img {
+  width: 700px;
+  /* background-color: pink; */
+}
+
+/* main */
+/* main {
+  padding: 0 60px;
+} */
+
+#about {
+  min-height: 100vh;
+  padding: 0 100px;
+}
+
+#about .img-and-text {
+  display: flex;
+  /* background-color: #c7a117; */
+  margin-top: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#about .img-and-text .img-container {
+  /* flex: 1; */
+  margin-right: 80px;
+}
+
+#about .img-and-text .text {
+  /* flex: 1; */
+  max-width: 600px;
+  /* background-color: red; */
+  padding-bottom: 30px;
+}
+
+#about .img-and-text .text p {
+  max-width: 450px;
+}
+
+#about .img-and-text img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#social {
+  min-height: 80vh;
+  padding: 0 90px;
+  /* background-color: aquamarine; */
+}
+
+.page-title {
+  /* background-color: pink; */
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.page-title h2 {
+  font-size: 30px;
+  color: #f3f3f3;
+  padding-left: 6px;
+  border-left: 5px solid #fedb59;
+  /* font-family: "Dancing Script", cursive; */
+  margin-bottom: 20px;
+}
+
+#social .all-cards {
+  display: flex;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: aquamarine; */
+}
+
+#social .all-cards .card {
+  background-color: #1a1c19;
+  width: 380px;
+  min-width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#social .all-cards .card .title-with-icon h2 {
+  color: #fedb5999;
+  padding-left: 4px;
+  font-size: 26px;
+}
+
+#social .all-cards .card p {
+  color: #f3f3f3;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#social .all-cards .card input {
+  color: #222;
+  font-size: 20px;
+  margin-top: 12px;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: #fedb59;
+  cursor: pointer;
+  font-family: "Hind Siliguri", sans-serif;
+  transition: all 0.5s ease;
+}
+
+#social .all-cards .card input:hover {
+  background-color: #c7a117;
+}
+
+#social .all-cards .card .title-with-icon {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#social .all-cards .card .title-with-icon .fa {
+  font-size: 26px;
+  color: #fedb5999;
+}
+
+/* we offer */
+#we-offer {
+  min-height: 100vh;
+  padding: 0 90px;
+}
+
+#we-offer .all-cards {
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: aquamarine; */
+}
+
+#we-offer .all-cards .card {
+  /* background-color: #1a1c19; */
+  width: 380px;
+  min-width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* #we-offer .all-cards .card .back-card {
+  background-color: #fedb59;
+  position: absolute;
+  height: 250px;
+  border-radius: 15px;
+} */
+
+#we-offer .all-cards .card .front-card {
+  position: relative;
+}
+
+#we-offer .all-cards .card .front-card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  border: 5px solid #000;
+  object-fit: cover;
+}
+
+/* #we-offer .all-cards .card .front-card::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  background-color: #fedb59;
+  border-radius: 15px;
+  z-index: -1;
+} */
+
+#we-offer .all-cards .card .front-card::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 100%;
+  height: 95%;
+  background-color: #fedb59;
+  border-radius: 15px;
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+
+#we-offer .all-cards .card .front-card:hover::before {
+  top: -30px;
+  left: -20px;
+}
+
+#we-offer .all-cards .card h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* contact */
+#contact {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("images/background.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 100px;
+}
+
+#contact .form-container {
+  /* background-color: aquamarine; */
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#contact .form-container form {
+  background-color: rgba(196, 196, 196, 0.2);
+  max-width: 60vw;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ffffff5c;
+}
+
+#contact form .input-area {
+  /* background-color: brown; */
+  flex: 1;
+}
+
+#contact form .input-area label {
+  color: #f3f3f3;
+}
+
+#contact form .input-area input,
+textarea {
+  background-color: transparent;
+  border: 1px solid #ffffff5c;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0 0 2px 0 #ffffff5c;
+  color: #f3f3f3;
+  font-size: 14px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+#contact form .input-area textarea {
+  resize: none;
+}
+
+#contact form .input-area button {
+  border: 1px solid #ffffff5c;
+  border-radius: 4px;
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0 0 2px 0 #ffffff5c;
+  color: #222;
+  font-size: 18px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: bold;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#contact form .input-area button:hover {
+  background-color: #ffffff5c;
+  color: #f3f3f3;
+}
+
+#contact form .text-area {
+  /* background-color: green; */
+  margin-left: 40px;
+  flex: 1;
+}
+
+/* footer */
+footer {
+  padding: 15px;
+  background-color: #fedb59;
+}
+
+footer p {
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* media query */
+@media only screen and (min-width: 320px) and (max-width: 679px) {
+  /* body {
+    background-color: olive;
+  } */
+
+  #header {
+    padding: 0 20px;
+  }
+
+  #header .logo-and-menu-bar .menu-bar {
+    display: none;
+  }
+
+  #header .text-and-image {
+    flex-wrap: wrap-reverse;
+  }
+
+  #header .text-and-image .text-btn {
+    padding-left: 30px;
+  }
+
+  #header .text-and-image .img img {
+    width: 500px;
+  }
+
+  /* about */
+  #about {
+    padding: 0 40px;
+  }
+
+  #about .img-and-text .img-container {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* social */
+  #social {
+    padding: 0 15px;
+  }
+
+  /* page title */
+  .page-title {
+    padding-top: 25px;
+  }
+
+  .page-title h2 {
+    padding-left: 10px;
+    border-left: 5px solid #fedb59;
+  }
+
+  #social .all-cards .card {
+    width: 380px;
+    padding: 16px;
+    margin: 15px;
+  }
+
+  /* we offer */
+  #we-offer {
+    min-height: 100vh;
+    padding: 0 0;
+  }
+
+  /* contact */
+  #contact {
+    padding: 0 15px;
+  }
+
+  #contact .form-container form {
+    max-width: 70vw;
+  }
+
+  #contact form .text-area {
+    display: none;
+  }
+}
