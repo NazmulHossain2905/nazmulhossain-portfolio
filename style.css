@@ -347,13 +347,13 @@ body {
 
 /* contact */
 #contact {
-  min-height: 100vh;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0),
       rgba(0, 0, 0, 0.3)
     ),
     url("images/background.jfif");
+  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -434,7 +434,8 @@ textarea {
 
 /* footer */
 footer {
-  padding: 15px;
+  padding: 20px;
+  margin-top: -30px;
   background-color: #fedb59;
 }
 
@@ -447,9 +448,9 @@ footer p {
 
 /* media query */
 @media only screen and (min-width: 320px) and (max-width: 679px) {
-  /* body {
-    background-color: olive;
-  } */
+  body {
+    overflow-x: hidden;
+  }
 
   #header {
     padding: 0 20px;
