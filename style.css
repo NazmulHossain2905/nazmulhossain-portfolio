@@ -31,10 +31,6 @@ body {
   padding: 12px 0;
 }
 
-#header .logo-and-menu-bar .menu-bar {
-  /* background-color: blanchedalmond; */
-}
-
 #header .logo-and-menu-bar .logo h2:hover {
   /* text-transform: uppercase; */
   color: #fedb59;
@@ -447,7 +443,7 @@ footer p {
 }
 
 /* media query */
-@media only screen and (min-width: 320px) and (max-width: 679px) {
+@media only screen and (min-width: 320px) and (max-width: 579px) {
   body {
     overflow-x: hidden;
   }
@@ -515,7 +511,7 @@ footer p {
   }
 
   #contact .form-container form {
-    max-width: 70vw;
+    max-width: 85vw;
   }
 
   #contact form .text-area {
