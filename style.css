@@ -449,7 +449,7 @@ footer p {
   }
 
   #header {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 
   #header .logo-and-menu-bar .menu-bar {
@@ -472,7 +472,18 @@ footer p {
   }
 
   #header .text-and-image .img img {
+    margin-left: 22px;
     width: 450px;
+  }
+
+  #header .text-and-image .text-btn h1 {
+    font-size: 28px;
+  }
+
+  #header .text-and-image .text-btn #hire-btn,
+  #resume-btn {
+    margin-right: 0;
+    margin: 5px;
   }
 
   /* about */
