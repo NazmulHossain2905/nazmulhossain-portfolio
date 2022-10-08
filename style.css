@@ -118,6 +118,11 @@ body {
   color: #222;
 }
 
+.resume {
+  text-decoration: none;
+  display: inline-block;
+}
+
 #header .text-and-image .text-btn #hire-btn:hover {
   background-color: #fedb59;
   color: #222;
@@ -469,11 +474,16 @@ footer p {
 
   #header .text-and-image .text-btn {
     padding-left: 30px;
+    margin-bottom: 25px;
   }
 
   #header .text-and-image .img img {
     margin-left: 22px;
     width: 450px;
+  }
+
+  .resume {
+    margin-top: 18px;
   }
 
   #header .text-and-image .text-btn h1 {
